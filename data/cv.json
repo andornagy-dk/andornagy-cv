@@ -85,7 +85,7 @@
     {"title": "Digital Product Manager, Web, PIM & DAM Platforms", "org": "N. Eilersen A/S, Copenhagen", "dates": "Aug 2022 to Aug 2025",
      "note": "Owned the platform ecosystem for the Eilersen brand: website, e-commerce platform and the integrated PIM and DAM systems. Tools: Perfion, VOCAST, Umbraco.",
      "bullets": [
-      {"text": "Built the DAM from zero on VOCAST: structure, classification, taxonomy, metadata standards, retrieval logic and a brand-aligned front end.", "tags": ["dam", "taxonomy", "ia"]},
+      {"text": "Built the DAM from zero: structure, classification, taxonomy, metadata standards, retrieval logic and a brand-aligned front end.", "tags": ["dam", "taxonomy", "ia"]},
       {"text": "Designed the DAM front end and adjusted its code when changes were needed.", "tags": ["dam", "ux"]},
       {"text": "Set metadata standards, naming conventions and automated tagging for the DAM to improve consistency, accessibility and reuse of assets.", "tags": ["dam", "taxonomy", "dataq"]},
       {"text": "Tagged and uploaded 3,000+ PR and marketing media files and kept the content current. Content requests that used to be answered by hand, with images collected one by one, became fully automated.", "tags": ["dam", "auto"]},
