@@ -1,24 +1,126 @@
-:root{
-  /* Concept: a faceted index. Skill chips are metadata tags, the experience below is the record set that carries them. */
-  --bg:#EEF0EC;
-  --fg:#15181B;
-  --muted:#5B636B;
-  --line:#C9CEC9;
-  --soft:#E2E5E0;
-  --accent:#2438E8;
+/* Two looks, selected by data-theme on <html>. js/themes.js sets it and stores the visitor's choice.
+   engineer: corporate, profile-card layout. Follows the system light/dark setting.
+   designer: glass panels over an animated deep-space background. Always dark. */
+:root,
+:root[data-theme="engineer"]{
+  --bg:#F4F2EE;
+  --fg:#1D2226;
+  --muted:#5E6268;
+  --line:#E0DFDC;
+  --soft:#EEF3F8;
+  --accent:#0A66C2;
   --accent-ink:#FFFFFF;
-  --f-display:'Syne','Helvetica Neue',Arial,sans-serif;
-  --f-body:'Hanken Grotesk','Helvetica Neue',Arial,sans-serif;
-  --f-mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  --surface:#FFFFFF;
+  --surface-line:#E0DFDC;
+  --shadow:0 1px 2px rgba(0,0,0,.06);
+  --glass:none;
+  --chip-line:#A9A9A6;
+  --chip-on:var(--accent);
+  --cover:linear-gradient(120deg,#0A66C2 0%,#378FE9 55%,#A8D0F5 100%);
+  --cover-display:block;
+  --name-paint:linear-gradient(var(--fg),var(--fg));
+  --name-break:none;
+
+  --radius:10px;
+  --radius-sm:8px;
+  --radius-pill:999px;
+  --card-pad:clamp(18px,3vw,28px);
+  --gap:10px;
+
+  --f-display:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  --f-body:var(--f-display);
+  --f-ui:var(--f-display);
+  --f-label:var(--f-display);
+  --display-weight:600;
+  --ui-weight:600;
+  --label-case:none;
+  --label-track:0;
+  --h1-size:clamp(2rem,5.5vw,2.8rem);
+  --h1-weight:600;
+  --h1-lh:1.1;
+  --h1-track:-.01em;
   color-scheme:light;
 }
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#0F1113;--fg:#E7E9E4;--muted:#9AA2A9;--line:#2B3035;--soft:#1A1D20;--accent:#8F9CFF;--accent-ink:#0B0F2E;
-    color-scheme:dark;
+@media (prefers-color-scheme: light){
+  :root:not([data-theme]),
+  :root[data-theme="engineer"]{
+    --bg:#000000;--fg:#E8E9EA;--muted:#A8ADB2;--line:#38434F;--soft:#1F2A36;
+    --accent:#71B7FB;--accent-ink:#00172E;
+    --surface:#1B1F23;--surface-line:#2E3740;--chip-line:#5A646E;
+    --shadow:none;
+    --cover:linear-gradient(120deg,#0B3C6E 0%,#1D5C99 55%,#3A7AB8 100%);
+    color-scheme:light;
   }
 }
-:root[data-theme="dark"]{
-  --bg:#0F1113;--fg:#E7E9E4;--muted:#9AA2A9;--line:#2B3035;--soft:#1A1D20;--accent:#8F9CFF;--accent-ink:#0B0F2E;
+
+:root[data-theme="designer"]{
+  --bg:#04050D;
+  --fg:#F1F3FF;
+  --muted:#A3AAC6;
+  --line:rgba(255,255,255,.12);
+  --soft:rgba(255,255,255,.08);
+  --accent:#B4A8FF;
+  --accent-ink:#0E0B2A;
+  --surface:rgba(255,255,255,.055);
+  --surface-line:rgba(255,255,255,.14);
+  --shadow:inset 0 1px 0 rgba(255,255,255,.12),0 24px 60px -24px rgba(0,0,0,.7);
+  --glass:blur(22px) saturate(160%);
+  --chip-line:rgba(255,255,255,.18);
+  --chip-on:linear-gradient(135deg,#CFC6FF 0%,#9FD8FF 100%);
+  --cover-display:none;
+  --name-paint:linear-gradient(180deg,#FFFFFF 35%,#B9B2FF 100%);
+  --name-break:inline;
+
+  --radius:24px;
+  --radius-sm:14px;
+  --card-pad:clamp(20px,3.6vw,36px);
+  --gap:14px;
+
+  --f-display:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;
+  --f-body:var(--f-display);
+  --f-ui:var(--f-display);
+  --f-label:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  --display-weight:600;
+  --ui-weight:500;
+  --label-case:uppercase;
+  --label-track:.14em;
+  --h1-size:clamp(3.2rem,11vw,7.2rem);
+  --h1-weight:600;
+  --h1-lh:.92;
+  --h1-track:-.045em;
   color-scheme:dark;
 }
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  :root[data-theme="designer"]{--surface:rgba(16,18,38,.88)}
+}
+
+/* designer background: drifting nebula plus a twinkling star field, both behind the content */
+:root[data-theme="designer"] body::before,
+:root[data-theme="designer"] body::after{content:"";position:fixed;pointer-events:none;z-index:-1}
+:root[data-theme="designer"] body::before{
+  inset:-25%;
+  background:
+    radial-gradient(38% 32% at 22% 28%,rgba(124,92,255,.38),transparent 70%),
+    radial-gradient(34% 30% at 78% 18%,rgba(56,189,248,.24),transparent 70%),
+    radial-gradient(42% 38% at 62% 82%,rgba(236,72,153,.18),transparent 70%);
+  animation:nebula 48s ease-in-out infinite alternate;
+}
+:root[data-theme="designer"] body::after{
+  inset:0;
+  background-image:
+    radial-gradient(1px 1px at 24px 36px,#FFFFFF,transparent),
+    radial-gradient(1px 1px at 140px 90px,rgba(255,255,255,.8),transparent),
+    radial-gradient(1.5px 1.5px at 80px 160px,#FFFFFF,transparent),
+    radial-gradient(1px 1px at 210px 220px,rgba(255,255,255,.7),transparent),
+    radial-gradient(1.5px 1.5px at 330px 60px,rgba(200,210,255,.9),transparent),
+    radial-gradient(1px 1px at 290px 300px,#FFFFFF,transparent);
+  background-size:240px 240px,310px 310px,370px 370px,430px 430px,520px 520px,610px 610px;
+  opacity:.55;
+  animation:twinkle 7s ease-in-out infinite alternate;
+}
+@keyframes nebula{
+  0%{transform:translate3d(0,0,0) rotate(0deg) scale(1)}
+  50%{transform:translate3d(4%,-3%,0) rotate(8deg) scale(1.08)}
+  100%{transform:translate3d(-3%,4%,0) rotate(-6deg) scale(1.04)}
+}
+@keyframes twinkle{from{opacity:.35}to{opacity:.7}}

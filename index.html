@@ -7,18 +7,26 @@
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/themes.css">
 <link rel="stylesheet" href="css/base.css">
+<script src="js/themes.js"></script>
 <script src="js/app.js" defer></script>
 </head>
 <body>
 <div class="wrap">
   <header class="hero">
     <div>
-      <p class="kicker" id="kicker"></p>
       <h1 id="name"></h1>
+      <p class="kicker" id="kicker"></p>
     </div>
     <div class="hero-side">
       <p class="line" id="line"></p>
       <p class="intro" id="intro"></p>
+      <div class="mode">
+        <span class="label" id="mode-label">View as</span>
+        <div class="seg" role="group" aria-labelledby="mode-label">
+          <button type="button" data-set-theme="engineer" aria-pressed="true">Engineer</button>
+          <button type="button" data-set-theme="designer" aria-pressed="false">Designer</button>
+        </div>
+      </div>
     </div>
   </header>
 

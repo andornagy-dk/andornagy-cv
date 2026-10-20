@@ -28,7 +28,8 @@
     document.getElementById("kicker").textContent=cv.hero.kicker;
     var nameEl=document.getElementById("name");
     cv.hero.name.forEach(function(part,i){
-      if(i)nameEl.appendChild(document.createElement("br"));
+      // the space keeps the words apart when a theme hides the line break
+      if(i){nameEl.appendChild(document.createTextNode(" "));nameEl.appendChild(document.createElement("br"));}
       nameEl.appendChild(document.createTextNode(part));
     });
     document.getElementById("line").textContent=cv.hero.line;
