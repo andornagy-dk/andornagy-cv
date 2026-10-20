@@ -66,7 +66,7 @@
       {"text": "Wrote the plan and design for an end-to-end document automation pipeline with Power Automate and Azure Document Intelligence that extracts structured data from varied documents.", "tags": ["auto", "solution"]},
       {"text": "Mapped information requirements with business users and translated them into automation requirements and a structured transformation approach.", "tags": ["auto", "po", "stake"]},
       {"text": "Projected an 85-90% cut in manual analyst handling per asset.", "tags": ["auto", "biz"]},
-      {"text": "Projected 20-24 hours saved per person per week: 3-4 hours from faster file retrieval and 16-20 hours from automated data extraction and AI.", "tags": ["auto", "biz"]},
+      {"text": "Projected 20-24 hours saved per person per week: 3-4 hours from faster file retrieval and 16-20 hours from AI-assisted data extraction.", "tags": ["auto", "biz"]},
       {"text": "Built the business case and the C-level presentation, translating the technical scope into operational value: recovered analyst hours, faster model readiness and scalable AI-assisted output.", "tags": ["biz", "stake"]},
       {"text": "Delivered the full project framework for the digital transformation initiative: stakeholder map, KPI model, phased roadmap and resource plan.", "tags": ["biz", "po", "stake"]},
       {"text": "Developed the 3-year transformation blueprint, from concept toward implementation, connecting the information architecture, metadata benefits and workflows to enable AI use and further automation.", "tags": ["solution", "ia", "auto"]}
@@ -94,7 +94,7 @@
       {"text": "Redesigned the SKU code. The new code is longer and carries more product information, so production can recognise elements faster.", "tags": ["pim", "dataq"]},
       {"text": "Built the master datasheet for the PIM, filled it with product data, and kept product information consistent across the PIM, DAM and web platforms. Validated records for errors and missing values and resolved the issues.", "tags": ["pim", "dataq"]},
       {"text": "Coordinated with external agencies, dealers, developers and the sales, marketing and production teams (production in Slovakia).", "tags": ["stake", "po"]},
-      {"text": "Owned the backlog and requirements, wrote user stories and directed 2 to 4 external developers on new website features, setting priorities. Worked in Agile with Jira and Basecamp.", "tags": ["po", "agile", "stake"]},
+      {"text": "Owned the backlog and requirements, wrote user stories and directed 2 to 4 external developers on new website features, setting priorities, in an Agile workflow with Jira and Basecamp.", "tags": ["po", "agile", "stake"]},
       {"text": "Planned a PIM, ERP and web integration project as product manager: mapped the data flow between the systems and collected the relevant data. The project was not finished when the role ended.", "tags": ["solution", "po", "pim"]},
       {"text": "Acted as the link between business stakeholders, technical teams and external agencies across Denmark, Slovakia, the UK and Asia during the integration project.", "tags": ["stake"]},
       {"text": "Created the photogrammetry source material for the B2B 3D configurator, which was still in development when the role ended.", "tags": ["media"]},
@@ -134,12 +134,11 @@
       {"text": "Handled HTML and CSS adjustments for the digital team.", "tags": ["cms"]},
       {"text": "Structured social content for the brand's Instagram.", "tags": ["social"]}
      ]},
-    {"title": "Teamleader (Seasonal)", "org": "Volt ApS, Copenhagen", "dates": "Jun 2014 to Sep 2018",
+    {"title": "Team Leader (Seasonal)", "org": "Volt ApS, Copenhagen", "dates": "Jun 2014 to Sep 2018",
      "note": "Summer work every year at festivals in Europe. The team was volunteers, not paid staff.",
      "bullets": [
       {"text": "Led a team of 6 to 8 volunteers at festivals in Denmark, Germany, Switzerland and Sweden, every summer from 2014 to 2018.", "tags": ["lead", "events"]},
-      {"text": "Worked at Roskilde Festival, Rock am Ring, Bråvalla Festival and Greenfield Festival (Switzerland).", "tags": ["events"]},
-      {"text": "Oversaw the daily operations in the field.", "tags": ["events", "lead"]},
+      {"text": "Oversaw daily field operations at Roskilde Festival, Rock am Ring, Bråvalla Festival and Greenfield Festival (Switzerland).", "tags": ["events", "lead"]},
       {"text": "Handled cash and takings and wrote the daily accounting reports.", "tags": ["events"]}
      ]},
     {"title": "Transporter & Transport Organiser (Student Job)", "org": "GoldTrans I/S", "dates": "2014 to 2016",
@@ -162,7 +161,7 @@
       {"text": "Ran events with a few hundred to 8,000 participants and budgets from DKK 100,000 to DKK 1 million (converted from Hungarian forints).", "tags": ["events"]},
       {"text": "Led a team of 12 to 15 student volunteers and other contributors, such as merchants: coordination, delegation and team development across several projects.", "tags": ["lead"]},
       {"text": "Owned contract negotiation, budgeting, risk and compliance, stakeholder alignment and logistics.", "tags": ["events", "stake"]},
-      {"text": "Worked with academic institutions, municipal authorities and corporate partners including Audi, Red Bull and Microsoft.", "tags": ["stake"]}
+      {"text": "Coordinated events with academic institutions, municipal authorities and corporate partners including Audi, Red Bull and Microsoft.", "tags": ["stake"]}
      ]},
     {"title": "Microsoft Student Partner", "org": "Microsoft (contract), Győr", "dates": "May 2012 to Jan 2014",
      "note": "Student partner program at the University of Győr.",
