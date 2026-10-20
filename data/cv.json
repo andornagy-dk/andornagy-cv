@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "kicker": "Digital product owner, Copenhagen",
+    "name": ["Andor", "Nagy"],
+    "line": "Designer at heart. Engineer in mindset.",
+    "intro": "8+ years in digital platforms, 3+ of them as a product manager, across web, PIM, DAM and e-commerce. Most recently designed a metadata-first SharePoint structure and a document automation pipeline."
+  },
+  "groups": [
+    {"name": "Data & governance", "skills": [
+      {"id": "pim", "label": "PIM"},
+      {"id": "dam", "label": "DAM"},
+      {"id": "taxonomy", "label": "Taxonomy & metadata"},
+      {"id": "dataq", "label": "Data quality"},
+      {"id": "ia", "label": "Information architecture"}
+    ]},
+    {"name": "Product", "skills": [
+      {"id": "po", "label": "Product ownership"},
+      {"id": "stake", "label": "Stakeholders"},
+      {"id": "biz", "label": "Business case & roadmap"},
+      {"id": "agile", "label": "Agile & backlog"}
+    ]},
+    {"name": "Web & e-commerce", "skills": [
+      {"id": "cms", "label": "CMS"},
+      {"id": "ecom", "label": "E-commerce"},
+      {"id": "perf", "label": "Web performance"},
+      {"id": "analytics", "label": "Analytics"}
+    ]},
+    {"name": "Content & UX", "skills": [
+      {"id": "social", "label": "Social & content"},
+      {"id": "ux", "label": "UX & prototyping"},
+      {"id": "media", "label": "3D & photography"}
+    ]},
+    {"name": "Automation", "skills": [
+      {"id": "auto", "label": "Process automation"},
+      {"id": "solution", "label": "Solution design"}
+    ]},
+    {"name": "Leadership", "skills": [
+      {"id": "lead", "label": "Team leadership"},
+      {"id": "events", "label": "Events & operations"}
+    ]}
+  ],
+  "titles": [
+    {"id": "dpm", "name": "Digital Product Manager",
+     "skills": ["po", "stake", "cms", "ecom", "perf", "analytics", "pim", "dam"],
+     "line": "Ran web, e-commerce, PIM and DAM platforms for a premium furniture brand across five markets. Raised the Google PageSpeed score from 64 to 90+, grew organic traffic 22% and conversion 19% in the new website's first year."},
+    {"id": "pim", "name": "PIM / Product Data Manager",
+     "skills": ["pim", "dataq", "taxonomy", "po", "stake"],
+     "line": "Designed the product data structure, SKU model and taxonomy behind a Perfion PIM with 4,000+ product records, covering 90+ product models and about 2,000 variants."},
+    {"id": "dam", "name": "Digital Asset Manager",
+     "skills": ["dam", "taxonomy", "ia", "dataq"],
+     "line": "Built a DAM from zero with taxonomy, metadata standards and retrieval logic, holding 3,000+ media files. Designed an asset merge process and 3D asset pipeline in the LEGO case study."},
+    {"id": "gov", "name": "Data Governance & Metadata Manager",
+     "skills": ["taxonomy", "dataq", "ia", "dam", "pim", "stake"],
+     "line": "Designed a metadata-first SharePoint structure for 60,000+ files and content governance for 2,000+ products, and validated product data across the PIM, DAM and web platforms."},
+    {"id": "dpo", "name": "Digital Product Owner",
+     "skills": ["po", "agile", "stake", "biz", "solution"],
+     "line": "Owned the backlog and requirements, wrote user stories and directed 2 to 4 external developers in Jira. Built the business case, KPI model and roadmap for a document automation initiative."}
+  ],
+  "roles": [
+    {"title": "Digital Transformation & Process Automation Specialist", "org": "Savills Denmark, Copenhagen", "dates": "May 2026 to Sep 2026",
+     "note": "Digital transformation and document automation project, on-site in Copenhagen. Delivered as plans, designs and a prototype. Savings figures are projections.",
+     "bullets": [
+      {"text": "Redesigned the information architecture for an environment of 60,000+ files as a metadata-first SharePoint structure, replacing the folder tree, to improve classification, consistency, discoverability and retrieval. Delivered the design and a prototype.", "tags": ["ia", "taxonomy", "dataq"]},
+      {"text": "Built the structure around how data is retrieved and automated, not how files were stored.", "tags": ["ia", "solution"]},
+      {"text": "Defined metadata standards, naming conventions and classification rules with Capital Markets stakeholders.", "tags": ["taxonomy", "dataq", "stake"]},
+      {"text": "Wrote the plan and design for an end-to-end document automation pipeline with Power Automate and Azure Document Intelligence that extracts structured data from varied documents.", "tags": ["auto", "solution"]},
+      {"text": "Mapped information requirements with business users and translated them into automation requirements and a structured transformation approach.", "tags": ["auto", "po", "stake"]},
+      {"text": "Projected an 85-90% cut in manual analyst handling per asset.", "tags": ["auto", "biz"]},
+      {"text": "Projected 20-24 hours saved per person per week: 3-4 hours from faster file retrieval and 16-20 hours from automated data extraction and AI.", "tags": ["auto", "biz"]},
+      {"text": "Built the business case and the C-level presentation, translating the technical scope into operational value: recovered analyst hours, faster model readiness and scalable AI-assisted output.", "tags": ["biz", "stake"]},
+      {"text": "Delivered the full project framework for the digital transformation initiative: stakeholder map, KPI model, phased roadmap and resource plan.", "tags": ["biz", "po", "stake"]},
+      {"text": "Developed the 3-year transformation blueprint, from concept toward implementation, connecting the information architecture, metadata benefits and workflows to enable AI use and further automation.", "tags": ["solution", "ia", "auto"]}
+     ]},
+    {"title": "Digital Product & Platform Consultant", "org": "ANdesign (own freelance business), Copenhagen", "dates": "Aug 2019 to Jan 2026",
+     "note": "Ran alongside the Eilersen role from Aug 2019 and full time from Sep 2025 until closing in Jan 2026. 6 to 8 clients in culture, retail and events.",
+     "bullets": [
+      {"text": "Built three new webshops from scratch on Shopify and WooCommerce: shop setup, product photography, product data entry, payment gateways, and shipping with DHL, FedEx and PostNord.", "tags": ["ecom"]},
+      {"text": "Collaborated with stakeholders in Denmark, Slovakia and Hungary.", "tags": ["stake"]},
+      {"text": "Created UX mockups and prototypes with new designs for Herend Porcelain Manufactory, and edited content on their websites.", "tags": ["ux", "cms"]},
+      {"text": "Set up content governance and taxonomy for Herend Porcelain Manufactory: content categories, metadata structures, naming conventions and asset relationships for web use across more than 2,000 products.", "tags": ["taxonomy", "ia", "dataq"]},
+      {"text": "Delivered 10+ interactive 3D virtual tours in Matterport for cultural institutions, retail and events, including Magasin du Nord, Copenhell and Statens Museum for Kunst.", "tags": ["media"]},
+      {"text": "Advised on scalable digital ecosystems, including CMS, PIM and asset workflows, aligning business goals with technical implementation for Herend Porcelain.", "tags": ["solution", "pim", "dam", "po"]},
+      {"text": "Took interior and drone photography for real estate sales.", "tags": ["media"]}
+     ]},
+    {"title": "Digital Product Manager, Web, PIM & DAM Platforms", "org": "N. Eilersen A/S, Copenhagen", "dates": "Aug 2022 to Aug 2025",
+     "note": "Owned the platform ecosystem for the Eilersen brand: website, e-commerce platform and the integrated PIM and DAM systems. Tools: Perfion, VOCAST, Umbraco.",
+     "bullets": [
+      {"text": "Built the DAM from zero on VOCAST: structure, classification, taxonomy, metadata standards, retrieval logic and a brand-aligned front end.", "tags": ["dam", "taxonomy", "ia"]},
+      {"text": "Designed the DAM front end and adjusted its code when changes were needed.", "tags": ["dam", "ux"]},
+      {"text": "Set metadata standards, naming conventions and automated tagging for the DAM to improve consistency, accessibility and reuse of assets.", "tags": ["dam", "taxonomy", "dataq"]},
+      {"text": "Tagged and uploaded 3,000+ PR and marketing media files and kept the content current. Content requests that used to be answered by hand, with images collected one by one, became fully automated.", "tags": ["dam", "auto"]},
+      {"text": "Designed the product data structure, SKU model and taxonomy used in the Perfion PIM implementation (4,000+ product records), and supported the rest of the implementation from the business side.", "tags": ["pim", "taxonomy", "dataq", "po"]},
+      {"text": "Structured product information for a portfolio of 90+ product models and about 2,000 variants, defining the relationships between products, configurations, components, dimensions, materials and upholstery.", "tags": ["pim", "taxonomy"]},
+      {"text": "Redesigned the SKU code. The new code is longer and carries more product information, so production can recognise elements faster.", "tags": ["pim", "dataq"]},
+      {"text": "Built the master datasheet for the PIM, filled it with product data, and kept product information consistent across the PIM, DAM and web platforms. Validated records for errors and missing values and resolved the issues.", "tags": ["pim", "dataq"]},
+      {"text": "Coordinated with external agencies, dealers, developers and the sales, marketing and production teams (production in Slovakia).", "tags": ["stake", "po"]},
+      {"text": "Owned the backlog and requirements, wrote user stories and directed 2 to 4 external developers on new website features, setting priorities. Worked in Agile with Jira and Basecamp.", "tags": ["po", "agile", "stake"]},
+      {"text": "Planned a PIM, ERP and web integration project as product manager: mapped the data flow between the systems and collected the relevant data. The project was not finished when the role ended.", "tags": ["solution", "po", "pim"]},
+      {"text": "Acted as the link between business stakeholders, technical teams and external agencies across Denmark, Slovakia, the UK and Asia during the integration project.", "tags": ["stake"]},
+      {"text": "Created the photogrammetry source material for the B2B 3D configurator, which was still in development when the role ended.", "tags": ["media"]},
+      {"text": "Built an Excel database to track development progress for 90+ products and about 2,000 variants.", "tags": ["po", "dataq"]},
+      {"text": "Reviewed each finished 3D model, then approved it or sent it back for adjustments.", "tags": ["media", "po"]}
+     ]},
+    {"title": "LEGO Games: Asset Merge Case Study", "org": "Recruitment assignment", "dates": "Jun 2025",
+     "note": "A case study for a recruitment process, not client work. Presented to the game developer department manager. Design and presentation only; nothing was built.",
+     "bullets": [
+      {"text": "Designed a process to merge the assets of an acquired game studio with LEGO's own: a duplicate check, the original LEGO naming conventions kept, and the studio's assets aligned to them.", "tags": ["dam", "taxonomy", "dataq"]},
+      {"text": "Defined the unified 3D asset pipeline, taxonomy and governance model for the merged assets.", "tags": ["dam", "taxonomy", "solution"]},
+      {"text": "Designed a strategic concept for a 3D game asset pipeline to improve structure, accessibility and collaboration between creative and technical teams.", "tags": ["solution", "dam"]},
+      {"text": "Presented the design and reached the next interview round, ranked 2nd among 520+ applicants according to the hiring manager.", "tags": ["stake"]}
+     ]},
+    {"title": "Webmaster & Digital Specialist", "org": "N. Eilersen A/S, Copenhagen", "dates": "Oct 2018 to Aug 2022",
+     "note": "Ran the digital channels for 2 brand websites, 2 e-commerce shops and email newsletters in 5 markets (US, DK, SE, NO, JP), plus the brands' Facebook, Instagram and LinkedIn.",
+     "bullets": [
+      {"text": "Grew Facebook, Instagram and LinkedIn from 2,500 to 20,000 followers in 2 years with organic growth only.", "tags": ["social"]},
+      {"text": "Raised organic reach with growth hacking, hashtag analysis and content optimisation.", "tags": ["social"]},
+      {"text": "Planned the timing of posts, hashtags and stories across the three channels.", "tags": ["social"]},
+      {"text": "Sent B2B email newsletters to dealers in English, German, Danish and Swedish.", "tags": ["social"]},
+      {"text": "Built landing pages in Umbraco CMS and kept brand consistency across 150+ products on all brands.", "tags": ["cms"]},
+      {"text": "Managed product pages and kept content, pricing and collections up to date.", "tags": ["cms", "ecom"]},
+      {"text": "Optimised the website for mobile use and design.", "tags": ["perf", "ux"]},
+      {"text": "Raised the Google PageSpeed Insights score from 64 to 90+ through content optimisation and faster loading.", "tags": ["perf"]},
+      {"text": "Grew organic traffic 22% and conversion rate 19% as the new website gained traffic in its first year, confirmed in GA4.", "tags": ["analytics", "ecom"]},
+      {"text": "Created website performance reports with Google Analytics 4, Hotjar and Lighthouse that gave management structured insights for decisions and continuous improvement.", "tags": ["analytics"]},
+      {"text": "Edited images and info sheets in Photoshop and Illustrator, and built webshop variants.", "tags": ["ux", "ecom"]},
+      {"text": "Designed invitations, email newsletters, banners, ads and short videos, kept on brand and high quality.", "tags": ["social", "ux"]}
+     ]},
+    {"title": "Digital Specialist (Student Worker)", "org": "Kunde & Co, Copenhagen", "dates": "Aug 2016 to Sep 2018",
+     "note": "Part-time student job. Main project: a new website for Carpe Diem Beds of Sweden.",
+     "bullets": [
+      {"text": "Built the content in Umbraco for a new Carpe Diem Beds of Sweden website: content editing, optimisation and landing pages.", "tags": ["cms"]},
+      {"text": "Ran the daily operation and maintenance of websites and digital content in Umbraco CMS: page creation, content updates and image processing.", "tags": ["cms"]},
+      {"text": "Tested new features before release, supported quality assurance and troubleshot problems.", "tags": ["cms"]},
+      {"text": "Handled HTML and CSS adjustments for the digital team.", "tags": ["cms"]},
+      {"text": "Structured social content for the brand's Instagram.", "tags": ["social"]}
+     ]},
+    {"title": "Teamleader (Seasonal)", "org": "Volt ApS, Copenhagen", "dates": "Jun 2014 to Sep 2018",
+     "note": "Summer work every year at festivals in Europe. The team was volunteers, not paid staff.",
+     "bullets": [
+      {"text": "Led a team of 6 to 8 volunteers at festivals in Denmark, Germany, Switzerland and Sweden, every summer from 2014 to 2018.", "tags": ["lead", "events"]},
+      {"text": "Worked at Roskilde Festival, Rock am Ring, Bråvalla Festival and Greenfield Festival (Switzerland).", "tags": ["events"]},
+      {"text": "Oversaw the daily operations in the field.", "tags": ["events", "lead"]},
+      {"text": "Handled cash and takings and wrote the daily accounting reports.", "tags": ["events"]}
+     ]},
+    {"title": "Transporter & Transport Organiser (Student Job)", "org": "GoldTrans I/S", "dates": "2014 to 2016",
+     "note": "Student job at a small transport company.",
+     "bullets": [
+      {"text": "Planned routes and organised transports for clients, and drove them on weekends while studying.", "tags": ["events"]},
+      {"text": "Handled client communication, advertising and invoicing end to end.", "tags": ["stake", "events"]}
+     ]},
+    {"title": "Multimedia Designer Intern", "org": "Montana Møbler A/S, Copenhagen", "dates": "Jan 2016 to Apr 2016",
+     "note": "Four-month internship at a furniture brand.",
+     "bullets": [
+      {"text": "Designed new content for the brand's website in Episerver CMS.", "tags": ["cms"]},
+      {"text": "Edited and maintained a webshop in WordPress.", "tags": ["ecom", "cms"]},
+      {"text": "Created digital graphic elements, brochures, email newsletters and short videos.", "tags": ["ux", "social"]}
+     ]},
+    {"title": "Conference and Event Organizer Office Leader", "org": "Non-profit Association for the University of Győr", "dates": "Oct 2008 to Jan 2014",
+     "note": "Led the office of a non-profit association. The team was student volunteers and other contributors.",
+     "bullets": [
+      {"text": "Led the office that planned and ran events end to end: science fairs, sports events, conferences and university open days.", "tags": ["events", "lead"]},
+      {"text": "Ran events with a few hundred to 8,000 participants and budgets from DKK 100,000 to DKK 1 million (converted from Hungarian forints).", "tags": ["events"]},
+      {"text": "Led a team of 12 to 15 student volunteers and other contributors, such as merchants: coordination, delegation and team development across several projects.", "tags": ["lead"]},
+      {"text": "Owned contract negotiation, budgeting, risk and compliance, stakeholder alignment and logistics.", "tags": ["events", "stake"]},
+      {"text": "Worked with academic institutions, municipal authorities and corporate partners including Audi, Red Bull and Microsoft.", "tags": ["stake"]}
+     ]},
+    {"title": "Microsoft Student Partner", "org": "Microsoft (contract), Győr", "dates": "May 2012 to Jan 2014",
+     "note": "Student partner program at the University of Győr.",
+     "bullets": [
+      {"text": "Promoted Microsoft products at the university and hosted events and workshops.", "tags": ["events"]},
+      {"text": "Promoted Azure technology and held workshops on it.", "tags": ["events"]}
+     ]},
+    {"title": "Marketing Assistant", "org": "X-Meditor Ltd., Győr", "dates": "2012 to 2014",
+     "note": "Marketing work for print campaigns and branding for Audi Hungaria.",
+     "bullets": [
+      {"text": "Designed and edited print media campaigns and branding materials for Audi Hungaria.", "tags": ["ux", "social"]}
+     ]}
+  ],
+  "education": [
+    {"title": "Web Development, Professional Bachelor (top-up)", "place": "KEA, Copenhagen, 2022 to 2023"},
+    {"title": "Digital Concept Development, Professional Bachelor", "place": "KEA, Copenhagen, 2016 to 2018"},
+    {"title": "Multimedia Design and Communication, AP Degree", "place": "KEA, Copenhagen, 2014 to 2016"},
+    {"title": "Marketing Strategist, BSc", "place": "Széchenyi István University, Győr, 2008 to 2012"}
+  ],
+  "languages": "Hungarian (native), English (C1), Danish (B1 to B2, reading and writing stronger than speaking)"
+}

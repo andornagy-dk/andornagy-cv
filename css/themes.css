@@ -1,0 +1,24 @@
+:root{
+  /* Concept: a faceted index. Skill chips are metadata tags, the experience below is the record set that carries them. */
+  --bg:#EEF0EC;
+  --fg:#15181B;
+  --muted:#5B636B;
+  --line:#C9CEC9;
+  --soft:#E2E5E0;
+  --accent:#2438E8;
+  --accent-ink:#FFFFFF;
+  --f-display:'Syne','Helvetica Neue',Arial,sans-serif;
+  --f-body:'Hanken Grotesk','Helvetica Neue',Arial,sans-serif;
+  --f-mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0F1113;--fg:#E7E9E4;--muted:#9AA2A9;--line:#2B3035;--soft:#1A1D20;--accent:#8F9CFF;--accent-ink:#0B0F2E;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0F1113;--fg:#E7E9E4;--muted:#9AA2A9;--line:#2B3035;--soft:#1A1D20;--accent:#8F9CFF;--accent-ink:#0B0F2E;
+  color-scheme:dark;
+}

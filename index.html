@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Andor Nagy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Hanken+Grotesk:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/base.css">
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div>
+      <p class="kicker" id="kicker"></p>
+      <h1 id="name"></h1>
+    </div>
+    <div class="hero-side">
+      <p class="line" id="line"></p>
+      <p class="intro" id="intro"></p>
+    </div>
+  </header>
+
+  <section class="facets" aria-labelledby="pick">
+    <p class="label">Filter the record</p>
+    <h2 id="pick">Pick the skills you need. Only the matching experience appears.</h2>
+    <div id="groups"></div>
+    <div class="titles" aria-labelledby="pick-title">
+      <h3 id="pick-title">Or pick your preferred job title</h3>
+      <div class="title-row" id="titleRow"></div>
+      <p class="role-line" id="roleLine" hidden></p>
+    </div>
+  </section>
+
+  <div class="readout">
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="ctrl">
+      <span class="label">Match</span>
+      <div class="seg" role="group" aria-label="Match mode">
+        <button type="button" id="m-any" aria-pressed="true">Any</button>
+        <button type="button" id="m-all" aria-pressed="false">All</button>
+      </div>
+      <button type="button" class="clear" id="clear" hidden>Clear</button>
+    </div>
+  </div>
+
+  <main id="results"></main>
+
+  <footer class="foot">
+    <div>
+      <p class="label">Contact</p>
+      <p class="mail"><span class="addr" id="addr">andor.nagy.cv@gmail.com</span><button type="button" class="copy" id="copy">Copy</button></p>
+      <p class="links"><a href="https://www.linkedin.com/in/andor-nagy" target="_blank" rel="noopener">linkedin.com/in/andor-nagy</a></p>
+    </div>
+    <details id="edu" hidden>
+      <summary>Education and languages</summary>
+      <dl id="eduList"></dl>
+    </details>
+  </footer>
+</div>
+</body>
+</html>
